@@ -1,7 +1,6 @@
 // Colors & Typography | Dark & Light Mode
 import { createContext, useState, useMemo } from 'react';
 import { createTheme } from '@mui/material/styles';
-import { typographyClasses } from '@mui/material';
 
 // color design tokens using Tailwind-Shades | ctrl+k ctrl+g
 export const tokens = (mode) => ({
@@ -229,6 +228,7 @@ export const ColorModeContext = createContext({
 export const useMode = () => {
   const [mode, setMode] = useState('dark');
 
+  //Memoizes the "colorMode" object and the theme based on the mode state to optimize performance by preventing unnecessary re-renders.
   const colorMode = useMemo(
     () => ({
       toggleColorMode: () =>
@@ -237,7 +237,7 @@ export const useMode = () => {
     []
   );
 
-  // passing the "mode" to the themeSettings we created above
+  //"Creates a theme" based on the selected "mode" using the createTheme-fn with dependencies on the mode variable.
   const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
 
   return [theme, colorMode];
@@ -260,4 +260,17 @@ export const useMode = () => {
 - The reason for using `.join(',')` in this context is to ensure that the font family values are properly formatted as a CSS-compatible string. 
 
 - By joining the array elements with a comma, it creates a valid CSS syntax for specifying multiple font families in case the primary font ('Source Sans Pro') is not available, allowing the browser to fall back to a generic sans-serif font.
+*/
+
+/* useMemo
+- is a React Hook that lets you "cache the result of" a calculation between re-renders.
+
+- Think of memoization as caching a value so that it does not need to be recalculated.
+
+- The useMemo Hook only runs when one of its dependencies update.
+
+- This can improve performance.
+
+?- The "useMemo" and "useCallback" Hooks are similar. The main difference is that useMemo returns a memoized _value_ and useCallback returns a memoized _function_.
+
 */
