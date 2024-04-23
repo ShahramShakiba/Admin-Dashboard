@@ -25,8 +25,10 @@
 <br/>
 
 > 🗝️ Which Concepts Have I Covered :
-- _Install Vite_: ` npm create vite@latest `
-- _Install MUI_: ` npm install @mui/material @emotion/react @emotion/styled `
+- _Install Vite_: &nbsp; ` npm create vite@latest `
+- _Install MUI & Data-Grid & Icons & React-Router & React-Sidebar & Formik & Validation-library & Full-Calendar & Nivo-Charts_:
+  - `  npm install @mui/material @emotion/react @emotion/styled @mui/x-data-grid @mui/icons-material react-router-dom react-pro-sidebar formik yup @fullcalendar/core @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/list @nivo/core @nivo/pie @nivo/line @nivo/bar @nivo/geo                           
+                                            `
 
 
 <br/>
@@ -39,7 +41,17 @@
 <!--------- Video --------->
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Clapper%20Board.webp" alt="Clapper Board" width="35" />
 
-  <br/> 
+  <br/> <br/>
+
+> Resources :
+- <a href="https://vitejs.dev/guide/" target="_blank"> &nbsp; _Vite_ </a> 
+- <a href="https://mui.com/material-ui/getting-started/installation/" target="_blank"> &nbsp; _MUI_ </a> 
+- <a href="https://reactrouter.com/en/main/start/tutorial" target="_blank"> &nbsp; _React Router_ </a> 
+- <a href="https://www.npmjs.com/package/react-pro-sidebar" target="_blank"> &nbsp; _React Pro Sidebar_ </a> 
+- <a href="https://formik.org/docs/overview" target="_blank"> &nbsp; _Formik_ </a> 
+- <a href="https://www.npmjs.com/package/yup" target="_blank"> &nbsp; _Validation Library | yup_ </a> 
+- <a href="https://fullcalendar.io/docs/initialize-es6" target="_blank"> &nbsp; _Full Calendar_ </a> 
+- <a href="https://nivo.rocks/" target="_blank"> &nbsp; _Nivo Charts_ </a> 
 
 <!--======================= Social Media ===========================-->
  ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Detective%20Light%20Skin%20Tone.png" alt="Man Detective Light Skin Tone" width="65" /> Find me around the Web  
