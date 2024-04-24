@@ -4,7 +4,7 @@
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" />&nbsp; _Description_
 
 > ### An admin dashboard is a tool used in various software applications to provide a centralized interface for administrators to monitor, manage, and analyze data related to the system they are overseeing.
-> It typically displays key performance indicators (KPIs), metrics, and other relevant information in a visually appealing and easy-to-understand format.
+> It typically displays key performance indicators (KPIs), metrics, and other relevant information in a visually appealing and easy-to-understand format. 
 
 <br/> 
 
